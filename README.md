@@ -17,6 +17,9 @@ Healthy Knee Joint
 Osteoarthritis Condition
 
 
+Dataset: https://drive.google.com/drive/folders/1y7AO4RHDLYYvjGMlZX2NBTpSFWho1Jyg?usp=sharing
+
+
 The dataset for this is divided into training, validation and testing which is used to train the deep learning model
 Firstly, the dataset is preprocessed using cv2 and numpy module so that an clean and consistent data can be passed in model training.
 After that, training and validation array is passed into the model to train. Here transfer learning is used to train the model and DenseNet201 pre-trained CNN model is used using tensorflow and keras module.
